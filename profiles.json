@@ -3,7 +3,7 @@
     "globals" :
     {
         "alwaysShowTabs" : true,
-        "defaultProfile" : "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
+        "defaultProfile" : "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
         "initialCols" : 120,
         "initialRows" : 30,
         "keybindings" :
@@ -211,7 +211,7 @@
             "commandline" : "wsl.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
-            "fontFace" : "Consolas",
+            "fontFace" : "Cascadia Code",
             "fontSize" : 10,
             "guid" : "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
             "historySize" : 9001,
@@ -247,7 +247,7 @@
             "commandline" : "cmd.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
-            "fontFace" : "Consolas",
+            "fontFace" : "Cascadia Code",
             "fontSize" : 10,
             "guid" : "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
             "historySize" : 9001,
@@ -275,24 +275,6 @@
           "snapOnInput" : true,
           "startingDirectory" : "%USERPROFILE%",
           "useAcrylic" : true
-        },
-        {
-            "startingDirectory" : "home/mikelgg93/mnt/c/Users/Miguel",
-            "acrylicOpacity" : 0.75,
-            "closeOnExit" : false,
-            "colorScheme" : "Dracula",
-            "commandline" : "ubuntu run",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "bar",
-            "fontFace" : "Consolas",
-            "fontSize" : 10,
-            "guid" : "{09dc5eef-6840-4050-ae69-21e55e6a2e62}",
-            "historySize" : 9001,
-            "icon" :  "C:/Users/Miguel/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/AppData/ubuntu_14143.ico",
-            "name" : "Ubuntu Desktop 🖥️",
-            "padding" : "10, 10, 10, 10",
-            "snapOnInput" : true,
-            "useAcrylic" : true
         }
     ],
     "schemes" :
