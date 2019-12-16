@@ -1,209 +1,55 @@
-//C:\Users\Miguel\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\RoamingState
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
 {
-    "globals" :
-    {
-        "alwaysShowTabs" : true,
-        "defaultProfile" : "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
-        "initialCols" : 120,
-        "initialRows" : 30,
-        "keybindings" :
-        [
-            {
-                "command" : "closeTab",
-                "keys" :
-                [
-                    "ctrl+w"
-                ]
-            },
-            {
-                "command" : "newTab",
-                "keys" :
-                [
-                    "ctrl+t"
-                ]
-            },
-            {
-                "command" : "newTabProfile0",
-                "keys" :
-                [
-                    "ctrl+shift+1"
-                ]
-            },
-            {
-                "command" : "newTabProfile1",
-                "keys" :
-                [
-                    "ctrl+shift+2"
-                ]
-            },
-            {
-                "command" : "newTabProfile2",
-                "keys" :
-                [
-                    "ctrl+shift+3"
-                ]
-            },
-            {
-                "command" : "newTabProfile3",
-                "keys" :
-                [
-                    "ctrl+shift+4"
-                ]
-            },
-            {
-                "command" : "newTabProfile4",
-                "keys" :
-                [
-                    "ctrl+shift+5"
-                ]
-            },
-            {
-                "command" : "newTabProfile5",
-                "keys" :
-                [
-                    "ctrl+shift+6"
-                ]
-            },
-            {
-                "command" : "newTabProfile6",
-                "keys" :
-                [
-                    "ctrl+shift+7"
-                ]
-            },
-            {
-                "command" : "newTabProfile7",
-                "keys" :
-                [
-                    "ctrl+shift+8"
-                ]
-            },
-            {
-                "command" : "newTabProfile8",
-                "keys" :
-                [
-                    "ctrl+shift+9"
-                ]
-            },
-            {
-                "command" : "nextTab",
-                "keys" :
-                [
-                    "ctrl+tab"
-                ]
-            },
-            {
-                "command" : "openSettings",
-                "keys" :
-                [
-                    "ctrl+,"
-                ]
-            },
-            {
-                "command" : "prevTab",
-                "keys" :
-                [
-                    "ctrl+shift+tab"
-                ]
-            },
-            {
-                "command" : "scrollDown",
-                "keys" :
-                [
-                    "ctrl+shift+down"
-                ]
-            },
-            {
-                "command" : "scrollDownPage",
-                "keys" :
-                [
-                    "ctrl+shift+pgdn"
-                ]
-            },
-            {
-                "command" : "scrollUp",
-                "keys" :
-                [
-                    "ctrl+shift+up"
-                ]
-            },
-            {
-                "command" : "scrollUpPage",
-                "keys" :
-                [
-                    "ctrl+shift+pgup"
-                ]
-            },
-            {
-                "command" : "switchToTab0",
-                "keys" :
-                [
-                    "alt+1"
-                ]
-            },
-            {
-                "command" : "switchToTab1",
-                "keys" :
-                [
-                    "alt+2"
-                ]
-            },
-            {
-                "command" : "switchToTab2",
-                "keys" :
-                [
-                    "alt+3"
-                ]
-            },
-            {
-                "command" : "switchToTab3",
-                "keys" :
-                [
-                    "alt+4"
-                ]
-            },
-            {
-                "command" : "switchToTab4",
-                "keys" :
-                [
-                    "alt+5"
-                ]
-            },
-            {
-                "command" : "switchToTab5",
-                "keys" :
-                [
-                    "alt+6"
-                ]
-            },
-            {
-                "command" : "switchToTab6",
-                "keys" :
-                [
-                    "alt+7"
-                ]
-            },
-            {
-                "command" : "switchToTab7",
-                "keys" :
-                [
-                    "alt+8"
-                ]
-            },
-            {
-                "command" : "switchToTab8",
-                "keys" :
-                [
-                    "alt+9"
-                ]
-            }
-        ],
-        "requestedTheme" : "system",
-        "showTabsInTitlebar" : true,
-        "showTerminalTitleInTitlebar" : true
-    },
-    "profiles" :
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+
+    "profiles":
     [
+        {
+            // Make changes here to the cmd.exe profile
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "CMD",
+            "commandline": "cmd.exe",
+            "colorScheme" : "VSCode",
+            "startingDirectory" : "%__CD__%",
+            "background": "#231a2b",
+            "acrylicOpacity" : 0.5,
+            "useAcrylic" : true,
+            "cursorColor": "#a09e27",
+            "hidden": false,
+            "fontSize": 12
+        },
+        {
+            // Make changes here to the powershell.exe profile
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "colorScheme" : "Dracula",
+            "acrylicOpacity" : 0.5,
+            "background" : "#012456",
+            "historySize" : 9001,
+            "padding" : "10, 10, 10, 10",
+            "snapOnInput" : true,
+            "startingDirectory" : "%__CD__%",
+            "useAcrylic" : true,
+            "hidden": false
+        },       
+        {
+            "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+            "hidden": false,
+            "name": "Ubuntu",
+            "source": "Windows.Terminal.Wsl"
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "hidden": true,
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure"
+        },
         {
             "acrylicOpacity" : 0.75,
             "closeOnExit" : false,
@@ -222,63 +68,39 @@
             "useAcrylic" : true
         },
         {
-            "acrylicOpacity" : 0.5,
-            "background" : "#012456",
-            "closeOnExit" : true,
-            "colorScheme" : "Dracula",
-            "commandline" : "powershell.exe",
-            "cursorColor" : "#FFFFFF",
-            "cursorShape" : "bar",
-            "fontFace" : "Courier New",
-            "fontSize" : 10,
-            "guid" : "{565ed1db-1474-455e-9d62-cb9fc7eb3f59}",
-            "historySize" : 9001,
-            "icon" : "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-            "name" : "PowerShell",
-            "padding" : "10, 10, 10, 10",
-            "snapOnInput" : true,
-            "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : false
-        },
+            "hidden":false,
+            "name":"Git-Bash",
+            "background":"#231a2b",
+            "colorScheme" : "GitBash",
+            "FontFace":"Cascadia Code",
+            "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+            "icon":"C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+            "startingDirectory" : "%__CD__%",
+            "closeOnExit" : false            
+        },       
         {
             "acrylicOpacity" : 0.75,
             "closeOnExit" : true,
-            "colorScheme" : "Solarized Dark",
-            "commandline" : "cmd.exe",
+            "colorScheme" : "Campbell",
+            "commandline" : "python.exe",
             "cursorColor" : "#FFFFFF",
             "cursorShape" : "bar",
             "fontFace" : "Cascadia Code",
-            "fontSize" : 10,
-            "guid" : "{2c9fc8c8-d57d-4721-9319-47fe42fbb900}",
+            "fontSize" : 12,
+            "guid" : "{1850e97f-16dc-4281-9ea9-0100c4e852c5}",
             "historySize" : 9001,
-            "icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-            "name" : "CMD",
-            "padding" : "10, 10, 10, 10",
+            "icon" : "C:/Users/Miguel/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/AppData/python.ico",
+            "name" : "Python",
+            "padding" : "0, 0, 0, 0",
             "snapOnInput" : true,
             "startingDirectory" : "%USERPROFILE%",
-            "useAcrylic" : true
-        },
-        {
-          "acrylicOpacity" : 0.75,
-          "closeOnExit" : true,
-          "colorScheme" : "Campbell",
-          "commandline" : "python.exe",
-          "cursorColor" : "#FFFFFF",
-          "cursorShape" : "bar",
-          "fontFace" : "Consolas",
-          "fontSize" : 10,
-          "guid" : "{1850e97f-16dc-4281-9ea9-0100c4e852c5}",
-          "historySize" : 9001,
-          "icon" : "C:/Users/Miguel/AppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/AppData/python.ico",
-          "name" : "Python",
-          "padding" : "0, 0, 0, 0",
-          "snapOnInput" : true,
-          "startingDirectory" : "%USERPROFILE%",
-          "useAcrylic" : true
+            "useAcrylic" : true,
+            "startingDirectory" : "%__CD__%"
         }
     ],
-    "schemes" :
-    [
+
+    // Add custom color schemes to this array
+    "schemes": [
         {
             "background" : "#0C0C0C",
             "black" : "#0C0C0C",
@@ -404,6 +226,77 @@
           "red" : "#FF5555",
           "white" : "#F8F8F2",
           "yellow" : "#F1FA8C"
-        }
-    ]
+        },
+        {
+            "background" : "#232323",
+            "black" : "#000000",
+            "blue" : "#579BD5",
+            "brightBlack" : "#797979",
+            "brightBlue" : "#9BDBFE",
+            "brightCyan" : "#2BC4E2",
+            "brightGreen" : "#1AD69C",
+            "brightPurple" : "#DF89DD",
+            "brightRed" : "#F6645D",
+            "brightWhite" : "#EAEAEA",
+            "brightYellow" : "#F6F353",
+            "cyan" : "#00B6D6",
+            "foreground" : "#D3D3D3",
+            "green" : "#3FC48A",
+            "purple" : "#CA5BC8",
+            "red" : "#D8473F",
+            "white" : "#EAEAEA",
+            "yellow" : "#D7BA7D",
+            "name": "VSCode"
+        },
+        {
+            "name" : "Monokai Night",
+            "background" : "#1f1f1f",
+            "foreground" : "#f8f8f8",
+            "black" : "#1f1f1f",
+            "blue" : "#6699df",
+            "cyan" : "#e69f66",
+            "green" : "#a6e22e",
+            "purple" : "#ae81ff",
+            "red" : "#f92672",
+            "white" : "#f8f8f2",
+            "yellow" : "#e6db74",
+            "brightBlack" : "#75715e",
+            "brightBlue" : "#66d9ef",
+            "brightCyan" : "#e69f66",
+            "brightGreen" : "#a6e22e",
+            "brightPurple" : "#ae81ff",
+            "brightRed" : "#f92672",
+            "brightWhite" : "#f8f8f2",
+            "brightYellow" : "#e6db74"
+        },
+        {
+            "background" : "#000000",
+            "black" : "#0C0C0C",
+            "blue" : "#6060ff",
+            "brightBlack" : "#767676",
+            "brightBlue" : "#3B78FF",
+            "brightCyan" : "#61D6D6",
+            "brightGreen" : "#16C60C",
+            "brightPurple" : "#B4009E",
+            "brightRed" : "#E74856",
+            "brightWhite" : "#F2F2F2",
+            "brightYellow" : "#F9F1A5",
+            "cyan" : "#3A96DD",
+            "foreground" : "#bfbfbf",
+            "green" : "#00a400",
+            "name" : "GitBash",
+            "purple" : "#bf00bf",
+            "red" : "#bf0000",
+            "white" : "#ffffff",
+            "yellow" : "#bfbf00",
+            "grey" : "#bfbfbf"
+        }  
+    ],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": [
+    { "command": "closeWindow", "keys": ["alt+f4"] },
+    { "command": "splitHorizontal", "keys": ["ctrl+\\"]},
+    { "command": "splitVertical", "keys": ["ctrl+-"]}]
 }
